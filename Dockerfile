@@ -1,9 +1,9 @@
 ## stage1
 FROM node:latest as builder
 
-RUN mkdir /devsa
+RUN mkdir /devd
 
-WORKDIR /devsa
+WORKDIR /devd
 
 COPY *.json ./
 
