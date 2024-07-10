@@ -17,4 +17,4 @@ RUN yarn build
 
 FROM nginx:latest
 
-COPY --from=builder /devsa/build/    /usr/share/nginx/html/
+COPY --from=builder /devd/build/    /usr/share/nginx/html/
