@@ -11,7 +11,7 @@ RUN npm install
 
 COPY . .
 
-RUN yarn build
+RUN npm run build
 
 ## stage 2
 
